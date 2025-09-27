@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './Layout/Layout'
 import About from './pages/About/About'
@@ -7,6 +7,8 @@ import Graphic from './pages/Work Graphics/Graphic'
 import Menu from './pages/Menu/Menu'
 import Flebologiya from './pages/Flebologiya/Flebologiya'
 import Clinick from './pages/Clinick/Clinick'
+import axios from 'axios'
+
 
 function App() {
   const router = createBrowserRouter([
