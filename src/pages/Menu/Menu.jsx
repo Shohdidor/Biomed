@@ -182,30 +182,170 @@ function Menu() {
 
       {/* Third Section  */}
 
-      <div className='lg:px-[50px]'>
+      <div className='lg:px-[50px] px-[5px]'>
         
 <div style={{ backgroundImage: `url(${Subtract})`, borderRadius : "50px",  backgroundSize: 'cover', backgroundPosition: 'center' }} className='mt-[50px] lg:py-[50px] py-[30px]'>
-  <div className='lg:px-[50px]'>
-    <h1 className='lg:text-[52px] text-center lg:text-left text-4xl mb-6 font-medium leading-tight'>
+  <div className='lg:px-[50px] px-[50px]'>
+    <h1 className='lg:text-[52px] text-[30px] text-left lg:text-left text-4xl mb-6  font-medium leading-tight'>
       Main Specialties of Our Clinic:
     </h1>
-    <button className='lg:p-[10px_40px] font-medium lg:text-[20px] lg:bg-white lg:rounded-full'>
+    <button className='lg:p-[10px_40px] lg:inline-block hidden font-medium lg:text-[20px] lg:bg-white lg:rounded-full text-[20px]'>
       About us
     </button>
-    <button className='lg:p-[5px_10px] lg:ml-[10px] lg:text-[22px] lg:bg-[#096DA1] lg:rounded-full lg:items-center lg:text-white lg:font-bold'>
+    <button className='lg:p-[5px_10px] lg:inline-block hidden lg:ml-[10px] lg:text-[22px] lg:bg-[#096DA1] lg:rounded-full lg:items-center lg:text-white lg:font-bold'>
       →
     </button>
   </div>
+
   
 </div>
     <img 
-      src={Rectangle2} 
+      src={Rectangle3} 
       alt="Genetic Technology" 
-      className='lg:w-[43%] lg:ml-auto lg:mt-[-100px]'
+      className='lg:w-[43%] w-[42%] ml-auto mt-[-70px] lg:ml-auto lg:mt-[-100px]'
     />
+    
+    <div className='lg:w-[50%] lg:mt-[-180px] mb-[50px]'>
+  <button className='lg:p-[10px_40px] bg-blue-200 mb-[10px] p-[5px_20px] rounded-[10px] rotate-3 lg:transform lg:-rotate-20 lg:py-[15px] font-medium lg:text-[20px] lg:bg-blue-200 lg:rounded-full hover:rotate-0 hover:scale-110 hover:bg-blue-300 transition-all duration-300 ease-out'>
+    Gynecology
+  </button>
+  <button className='lg:p-[10px_40px] bg-blue-200 p-[5px_20px] ml-[5px] rounded-[10px] lg:transform lg:rotate-20 lg:py-[15px] font-medium lg:text-[20px] lg:bg-blue-200 lg:rounded-full hover:rotate-0 hover:scale-110 hover:bg-blue-300 transition-all duration-300 ease-out'>
+    Doppler Ultrasound
+  </button>
+  <button className='lg:p-[10px_40px] bg-blue-200 p-[5px_20px] rounded-[10px] -rotate-5 lg:-rotate-10 lg:py-[15px] font-medium lg:text-[20px] lg:bg-blue-200 lg:rounded-full hover:rotate-0 hover:scale-110 hover:bg-blue-300 transition-all duration-300 ease-out'>
+    General Surgery
+  </button>
+  <button className='lg:py-[15px] bg-blue-200 p-[5px_20px] mb-[10px] rounded-[10px] rotate-3 lg:-rotate-10 lg:p-[10px_40px] lg:mt-[40px] font-medium lg:text-[20px] lg:bg-blue-200 lg:rounded-full hover:rotate-0 hover:scale-110 hover:bg-blue-300 transition-all duration-300 ease-out'>
+    Coloproctology
+  </button>
+  <button className='lg:p-[10px_40px] bg-blue-200 p-[5px_20px] rounded-[10px] rotate-3 lg:py-[15px] font-medium lg:text-[20px] lg:bg-blue-200 lg:rounded-full hover:rotate-12 hover:scale-110 hover:bg-blue-300 transition-all duration-300 ease-out'>
+    Ultrasound Diagnostics
+  </button>
+  <button className='lg:p-[10px_40px] bg-blue-200 p-[5px_20px] rounded-[10px] rotate-3 font-medium lg:py-[15px] lg:rotate-8 lg:text-[20px] lg:bg-blue-200 lg:rounded-full hover:-rotate-8 hover:scale-110 hover:bg-blue-300 transition-all duration-300 ease-out'>
+    Phlebology
+  </button>
+  <button className='lg:p-[10px_40px] bg-blue-200 ml-[70px] mt-[10px] p-[5px_20px] rounded-[10px] font-medium lg:text-[20px] lg:ml-[230px] lg:mt-[5px] lg:bg-blue-200 lg:rounded-full hover:-rotate-12 hover:scale-110 hover:bg-blue-300 transition-all duration-300 ease-out'>
+    Vascular Surgery
+  </button>
+</div>
 
 
       </div>
+
+
+      {/* Fourth Section  */}
+
+      <h1 className='lg:text-[70px] lg:text-center lg:mt-[150px] lg:font-medium'>
+        Our <span className='text-[#096DA1]'> Medical </span> Services
+      </h1>
+      <p className='lg:font-medium lg:mb-[150px] lg:text-center lg:text-[20px]'>
+        The best medical and treatment center for you
+      </p>
+
+    <div className="flex flex-col lg:px-[50px] lg:flex-row justify-between items-start lg:items-center mb-12">
+  <h1 className="text-2xl lg:text-4xl font-medium lg:leading-[50px] text-gray-800 mb-6 lg:mb-0">
+    We Offer Ultrasound Examinations <br /> of the Following Areas:
+  </h1>
+  
+  <div className="flex items-center gap-4">
+    <button className="bg-[#DBECF5] border-1 border-black hover:bg-blue-200/50 font-medium px-10 py-3 rounded-full transition-all duration-300 hover:shadow-lg transform hover:scale-110">
+      Learn More
+    </button>
+    <button className="bg-[#DBECF5] border-1 border-black  hover:bg-blue-200/50 font-medium w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:shadow-lg transform hover:scale-110">
+      →
+    </button>
+  </div>
+</div>
+
+{/* Note-style cards */}
+<div className="grid lg:px-[50px] grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+  {/* Card 1 */}
+  <div className="rounded-lg p-6 shadow-sm hover:shadow-md transition-all duration-300 bg-[#C9E7F3]">
+    <button className="bg-[#ffffff] text-black font-medium px-[10px] py-2 rounded-full mb-4 text-sm">
+      •••
+    </button>
+    <div className="space-y-2">
+      <h1 className='text-black lg:text-[30px]'>
+        • Thyroid Gland
+      </h1>
+        <h1 className='text-black lg:text-[30px]'>
+          • Mammary Gland
+        </h1>
+        <h1 className='text-black lg:text-[30px]'>
+          • Prostate Gland
+        </h1>
+        <div className='lg:bg-[#8bc7e1] lg:py-[5px] lg:rounded-[50px]'>
+          <h1>
+            Detailed Ultrasound <br />
+            Assessments
+          </h1>
+        </div>
+    </div>
+  </div>
+
+  {/* Card 2 */}
+  <div className="border-2 border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300 bg-white">
+    <button className="bg-green-100 text-green-600 font-medium px-4 py-2 rounded-lg mb-4 text-sm">
+      Pelvic
+    </button>
+    <div className="space-y-2">
+      <div className="flex items-center">
+        <span className="text-gray-500 mr-2">•</span>
+        <span className="text-gray-700">Uterus</span>
+      </div>
+      <div className="flex items-center">
+        <span className="text-gray-500 mr-2">•</span>
+        <span className="text-gray-700">Ovaries</span>
+      </div>
+      <div className="flex items-center">
+        <span className="text-gray-500 mr-2">•</span>
+        <span className="text-gray-700">Bladder</span>
+      </div>
+    </div>
+  </div>
+
+  {/* Card 3 */}
+  <div className="border-2 border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300 bg-white">
+    <button className="bg-purple-100 text-purple-600 font-medium px-4 py-2 rounded-lg mb-4 text-sm">
+      Thyroid
+    </button>
+    <div className="space-y-2">
+      <div className="flex items-center">
+        <span className="text-gray-500 mr-2">•</span>
+        <span className="text-gray-700">Gland Structure</span>
+      </div>
+      <div className="flex items-center">
+        <span className="text-gray-500 mr-2">•</span>
+        <span className="text-gray-700">Nodule Check</span>
+      </div>
+      <div className="flex items-center">
+        <span className="text-gray-500 mr-2">•</span>
+        <span className="text-gray-700">Blood Flow</span>
+      </div>
+    </div>
+  </div>
+
+  {/* Card 4 */}
+  <div className="border-2 border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300 bg-white">
+    <button className="bg-orange-100 text-orange-600 font-medium px-4 py-2 rounded-lg mb-4 text-sm">
+      Vascular
+    </button>
+    <div className="space-y-2">
+      <div className="flex items-center">
+        <span className="text-gray-500 mr-2">•</span>
+        <span className="text-gray-700">Arteries</span>
+      </div>
+      <div className="flex items-center">
+        <span className="text-gray-500 mr-2">•</span>
+        <span className="text-gray-700">Veins</span>
+      </div>
+      <div className="flex items-center">
+        <span className="text-gray-500 mr-2">•</span>
+        <span className="text-gray-700">Blood Flow</span>
+      </div>
+    </div>
+  </div>
+</div>
 
     </>
     </div>
