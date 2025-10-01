@@ -6,6 +6,7 @@ import Comunicate from '/src/img/image 22.png'
 import Rectangle2 from '/src/img/Rectangle 19.png'
 import Subtract from '/src/img/Subtract.png'
 import Rectangle3 from '/src/img/Rectangle 18.png'
+import Doc1 from '/src/img/Doc1.png'
 
 function Menu() {
   return (
@@ -258,98 +259,183 @@ function Menu() {
 </div>
 
 {/* Note-style cards */}
-<div className="grid lg:px-[50px] grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div className="grid px-6 md:px-8 lg:px-[50px] grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
   {/* Card 1 */}
-  <div className="rounded-lg p-6 shadow-sm hover:shadow-md transition-all duration-300 bg-[#C9E7F3]">
-    <button className="bg-[#ffffff] text-black font-medium px-[10px] py-2 rounded-full mb-4 text-sm">
+  <div className="relative rounded-lg lg:rounded-br-[150px] p-4 md:p-6 shadow-sm bg-[#C9E7F3] overflow-hidden group cursor-pointer transition-all duration-500 hover:shadow-2xl hover:scale-[1.02]">
+    {/* Dark Crystal Shine Effect */}
+    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-blue-900/20 to-transparent -skew-x-12 transform translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000 ease-in-out"></div>
+    
+    {/* Dark Border Glow */}
+    <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-blue-800/30 via-cyan-800/30 to-blue-800/30 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xs group-hover:blur-sm -z-10"></div>
+    
+    <button className="bg-[#ffffff] text-black font-medium px-[10px] py-2 rounded-full mb-3 md:mb-4 text-sm transition-all duration-300 group-hover:bg-blue-100 group-hover:shadow-lg group-hover:scale-110 group-hover:text-blue-800">
       •••
     </button>
-    <div className="space-y-2">
-      <h1 className='text-black lg:text-[30px]'>
+    <div className="space-y-2 relative z-10">
+      <h1 className='text-black group-hover:text-white transition-all duration-300 ease-out text-xl md:text-2xl lg:text-[30px] transform group-hover:translate-x-2'>
         • Thyroid Gland
       </h1>
-        <h1 className='text-black lg:text-[30px]'>
-          • Mammary Gland
+      <h1 className='text-black group-hover:text-white transition-all duration-300 ease-out delay-75 text-xl md:text-2xl lg:text-[30px] transform group-hover:translate-x-2'>
+        • Mammary Gland
+      </h1>
+      <h1 className='text-black group-hover:text-white transition-all duration-300 ease-out delay-100 text-xl md:text-2xl lg:text-[30px] transform group-hover:translate-x-2'>
+        • Prostate Gland
+      </h1>
+      <div className='bg-white/70 backdrop-blur-xs py-2 md:py-[5px] rounded-[50px] mt-3 md:mt-4 transition-all duration-500 group-hover:bg-blue-100/80 group-hover:shadow-lg group-hover:scale-105'>
+        <h1 className='text-black font-medium text-xs md:text-sm lg:text-[14px] pl-4 md:pl-[25px] transition-colors duration-300 group-hover:text-blue-900'>
+          Detailed Ultrasound <br />
+          Assessments
         </h1>
-        <h1 className='text-black lg:text-[30px]'>
-          • Prostate Gland
-        </h1>
-        <div className='lg:bg-[#8bc7e1] lg:py-[5px] lg:rounded-[50px]'>
-          <h1>
-            Detailed Ultrasound <br />
-            Assessments
-          </h1>
-        </div>
+      </div>
     </div>
   </div>
 
   {/* Card 2 */}
-  <div className="border-2 border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300 bg-white">
-    <button className="bg-green-100 text-green-600 font-medium px-4 py-2 rounded-lg mb-4 text-sm">
-      Pelvic
-    </button>
-    <div className="space-y-2">
-      <div className="flex items-center">
-        <span className="text-gray-500 mr-2">•</span>
-        <span className="text-gray-700">Uterus</span>
-      </div>
-      <div className="flex items-center">
-        <span className="text-gray-500 mr-2">•</span>
-        <span className="text-gray-700">Ovaries</span>
-      </div>
-      <div className="flex items-center">
-        <span className="text-gray-500 mr-2">•</span>
-        <span className="text-gray-700">Bladder</span>
-      </div>
+  <div className="relative rounded-lg lg:rounded-tr-[150px] p-4 md:p-6 shadow-sm bg-[#C9E7F3] overflow-hidden group cursor-pointer transition-all duration-500 hover:shadow-2xl hover:scale-[1.02]">
+    {/* Dark Crystal Shine Effect */}
+    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-cyan-900/25 to-transparent -skew-x-12 transform translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000 ease-in-out"></div>
+    
+    {/* Dark Border Glow */}
+    <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-cyan-800/35 via-blue-800/35 to-cyan-800/35 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xs group-hover:blur-sm -z-10"></div>
+    
+    <div className='bg-white/70 backdrop-blur-xs py-2 md:py-[5px] rounded-[50px] transition-all duration-500 group-hover:bg-blue-100/80 group-hover:shadow-lg group-hover:scale-105'>
+      <h1 className='text-black font-medium text-xs md:text-sm lg:text-[14px] pl-4 md:pl-[25px] transition-colors duration-300 group-hover:text-blue-900'>
+        Detailed Ultrasound <br />
+        Assessments
+      </h1>
     </div>
+    <div className="space-y-2 py-3 md:py-[10px] relative z-10">
+      <h1 className='text-black group-hover:text-white transition-all duration-300 ease-out text-xl md:text-2xl lg:text-[30px] transform group-hover:translate-x-2'>
+        • Thyroid Gland
+      </h1>
+      <h1 className='text-black group-hover:text-white transition-all duration-300 ease-out delay-75 text-xl md:text-2xl lg:text-[30px] transform group-hover:translate-x-2'>
+        • Mammary Gland
+      </h1>
+      <h1 className='text-black group-hover:text-white transition-all duration-300 ease-out delay-100 text-xl md:text-2xl lg:text-[30px] transform group-hover:translate-x-2'>
+        • Prostate Gland
+      </h1>
+    </div>
+    <button className="bg-[#ffffff] text-black font-medium px-[10px] py-2 rounded-full mt-3 md:mt-4 text-sm transition-all duration-300 group-hover:bg-blue-100 group-hover:shadow-lg group-hover:scale-110 group-hover:text-blue-800">
+      •••
+    </button>
   </div>
 
   {/* Card 3 */}
-  <div className="border-2 border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300 bg-white">
-    <button className="bg-purple-100 text-purple-600 font-medium px-4 py-2 rounded-lg mb-4 text-sm">
-      Thyroid
+  <div className="relative rounded-lg lg:rounded-bl-[150px] p-4 md:p-6 shadow-sm bg-[#C9E7F3] overflow-hidden group cursor-pointer transition-all duration-500 hover:shadow-2xl hover:scale-[1.02]">
+    {/* Dark Crystal Shine Effect */}
+    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-blue-800/30 to-transparent -skew-x-12 transform translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000 ease-in-out"></div>
+    
+    {/* Dark Border Glow */}
+    <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-blue-900/40 via-cyan-900/40 to-blue-900/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xs group-hover:blur-sm -z-10"></div>
+    
+    <button className="bg-[#ffffff] text-black font-medium px-[10px] py-2 rounded-full mb-3 md:mb-4 text-sm transition-all duration-300 group-hover:bg-blue-100 group-hover:shadow-lg group-hover:scale-110 group-hover:text-blue-800">
+      •••
     </button>
-    <div className="space-y-2">
-      <div className="flex items-center">
-        <span className="text-gray-500 mr-2">•</span>
-        <span className="text-gray-700">Gland Structure</span>
-      </div>
-      <div className="flex items-center">
-        <span className="text-gray-500 mr-2">•</span>
-        <span className="text-gray-700">Nodule Check</span>
-      </div>
-      <div className="flex items-center">
-        <span className="text-gray-500 mr-2">•</span>
-        <span className="text-gray-700">Blood Flow</span>
+    <div className="space-y-2 relative z-10">
+      <h1 className='text-black group-hover:text-white transition-all duration-300 ease-out text-xl md:text-2xl lg:text-[30px] transform group-hover:translate-x-2'>
+        • Thyroid Gland
+      </h1>
+      <h1 className='text-black group-hover:text-white transition-all duration-300 ease-out delay-75 text-xl md:text-2xl lg:text-[30px] transform group-hover:translate-x-2'>
+        • Mammary Gland
+      </h1>
+      <h1 className='text-black group-hover:text-white transition-all duration-300 ease-out delay-100 text-xl md:text-2xl lg:text-[30px] transform group-hover:translate-x-2'>
+        • Prostate Gland
+      </h1>
+      <div className='bg-white/70 backdrop-blur-xs py-2 md:py-[5px] rounded-[50px] mt-3 md:mt-4 transition-all duration-500 group-hover:bg-blue-100/80 group-hover:shadow-lg group-hover:scale-105'>
+        <h1 className='text-black font-medium text-xs md:text-sm lg:text-[14px] pl-4 md:pl-[25px] transition-colors duration-300 group-hover:text-blue-900'>
+          Detailed Ultrasound <br />
+          Assessments
+        </h1>
       </div>
     </div>
   </div>
 
   {/* Card 4 */}
-  <div className="border-2 border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300 bg-white">
-    <button className="bg-orange-100 text-orange-600 font-medium px-4 py-2 rounded-lg mb-4 text-sm">
-      Vascular
-    </button>
-    <div className="space-y-2">
-      <div className="flex items-center">
-        <span className="text-gray-500 mr-2">•</span>
-        <span className="text-gray-700">Arteries</span>
-      </div>
-      <div className="flex items-center">
-        <span className="text-gray-500 mr-2">•</span>
-        <span className="text-gray-700">Veins</span>
-      </div>
-      <div className="flex items-center">
-        <span className="text-gray-500 mr-2">•</span>
-        <span className="text-gray-700">Blood Flow</span>
-      </div>
+  <div className="relative rounded-lg lg:rounded-tl-[150px] p-4 md:p-6 shadow-sm bg-[#C9E7F3] overflow-hidden group cursor-pointer transition-all duration-500 hover:shadow-2xl hover:scale-[1.02]">
+    {/* Dark Crystal Shine Effect */}
+    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-cyan-800/35 to-transparent -skew-x-12 transform translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000 ease-in-out"></div>
+    
+    {/* Dark Border Glow */}
+    <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-cyan-900/45 via-blue-900/45 to-cyan-900/45 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xs group-hover:blur-sm -z-10"></div>
+    
+    <div className='bg-white/70 backdrop-blur-xs py-2 md:py-[5px] rounded-[50px] transition-all duration-500 group-hover:bg-blue-100/80 group-hover:shadow-lg group-hover:scale-105'>
+      <h1 className='text-black font-medium text-xs md:text-sm lg:text-[14px] pl-4 md:pl-[25px] transition-colors duration-300 group-hover:text-blue-900'>
+        Detailed Ultrasound <br />
+        Assessments
+      </h1>
     </div>
+    <div className="space-y-2 py-3 md:py-[10px] relative z-10">
+      <h1 className='text-black group-hover:text-white transition-all duration-300 ease-out text-xl md:text-2xl lg:text-[30px] transform group-hover:translate-x-2'>
+        • Thyroid Gland
+      </h1>
+      <h1 className='text-black group-hover:text-white transition-all duration-300 ease-out delay-75 text-xl md:text-2xl lg:text-[30px] transform group-hover:translate-x-2'>
+        • Mammary Gland
+      </h1>
+      <h1 className='text-black group-hover:text-white transition-all duration-300 ease-out delay-100 text-xl md:text-2xl lg:text-[30px] transform group-hover:translate-x-2'>
+        • Prostate Gland
+      </h1>
+    </div>
+    <button className="bg-[#ffffff] text-black font-medium px-[10px] py-2 rounded-full mt-3 md:mt-4 text-sm transition-all duration-300 group-hover:bg-blue-100 group-hover:shadow-lg group-hover:scale-110 group-hover:text-blue-800">
+      •••
+    </button>
   </div>
 </div>
 
+
+<div className='lg:flex mt-[50px] flex justify-center lg:mt-[100px] lg:justify-center lg:items-center lg:gap-[15px] bg-[#D7EBF4] p-[5px] lg:w-full lg:hover:bg-[#a9c4d1] lg:duration-200 lg:bg-[#D7EBF4] lg:p-6'>
+  <h1 className='lg:text-[40px] lg:hover:bg-[#94afba] lg:hover:text-white lg:duration-200 lg:ease-in-out lg:cursor-default text-[14px] font-medium p-[1px_5px] bg-[#E7F3F8] lg:p-[1px_40px] lg:border-3 lg:border-white lg:bg-[#E7F3F8] lg:rounded-full text-center'>
+    Early Detection Saves Lives
+  </h1>
+  <h1 className='lg:text-[40px] lg:hover:bg-[#94afba] lg:hover:text-white lg:duration-200 lg:ease-in-out lg:cursor-default text-[14px] font-medium p-[1px_5px] bg-[#E7F3F8] lg:p-[1px_40px] lg:border-3 lg:border-white lg:bg-[#E7F3F8] lg:rounded-full text-center'>
+    Schedule Your Screening Today
+  </h1>
+</div>
+
+<div className="flex justify-center lg:mt-[100px]">
+  <h1 className='font-medium border-2 border-[#096DA1] lg:inline lg:p-[5px_20px] lg:rounded-full text-center'>
+    Our Team
+  </h1>
+</div>
+
+      <h1 className='font-medium text-center text-[70px] mt-[10px]'>
+        Meet <span className='text-[#096DA1]'>  our Specialists </span>
+      </h1>
+      <p className='text-[23px] font-medium text-center'>
+        Behind every treatment is a team of experts dedicated to your wellbeing
+      </p>
+
+      <div className='lg:flex lg:overflow-hidden'>
+       <Component img={Doc1} name="Dr. Gukesh Sharma" job="General Surgeon" title="CEO & Co-Founder of Biomed" />
+       <Component img={Doc1} name="Dr. Gukesh Sharma" job="General Surgeon" title="CEO & Co-Founder of Biomed" />
+       <Component img={Doc1} name="Dr. Gukesh Sharma" job="General Surgeon" title="CEO & Co-Founder of Biomed" />
+       <Component img={Doc1} name="Dr. Gukesh Sharma" job="General Surgeon" title="CEO & Co-Founder of Biomed" />
+       <Component img={Doc1} name="Dr. Gukesh Sharma" job="General Surgeon" title="CEO & Co-Founder of Biomed" />
+      </div>
     </>
     </div>
   )
 }
 
 export default Menu
+
+
+function Component( { img , name , job , title } ) {
+  return (
+    <div className="group">
+      <img src={img} alt="Doctor's Profile" />
+      <div className='lg:bg-white lg:z-10 lg:relative lg:w-full lg:px-[20px] lg:py-[5px] lg:rounded-[10px] lg:ml-[10px] lg:mt-[-80px] lg:transition-all lg:duration-300 lg:ease-in-out lg:group-hover:mt-0 lg:group-hover:bg-blue-500 lg:group-hover:text-white'>
+        <h1 className='font-medium text-[15px] text-center lg:group-hover:text-white'>
+          { name }
+        </h1>
+        <p className='font-medium text-center text-gray-500 text-[13px] lg:group-hover:text-white'>
+          { job }
+        </p>
+        <p className='font-medium text-center text-[14px] lg:group-hover:text-white'>
+          { title }
+        </p>
+      </div>
+    </div>
+  )
+}
+
+export { Component }
